@@ -1,5 +1,5 @@
 export default {
-  secretKey: 'vWpw3vn1xAQjS18GhGmRd2mwsKnq3R65',
+  secretKey: 'vWpw3vn1xAQjS18GhGmRd2mwsKnq3R651',
   host: 'http://localhost',
   port: '214651',
   deviceName: 'WhatsApp API',
@@ -7,7 +7,7 @@ export default {
   startAllSession: true,
   tokenStoreType: 'file',
   maxListeners: 0,
-  customUserDataDir: './userDataDir/',
+  customUserDataDir: './userDataDirStaging/',
   webhook: {
     url: null,
     autoDownload: true,
