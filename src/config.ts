@@ -4,7 +4,7 @@ export default {
   port: '21466',
   deviceName: 'WhatsApp API',
   poweredBy: 'MeaVita Ventures',
-  startAllSession: true,
+  startAllSession: false,
   tokenStoreType: 'file',
   maxListeners: 0,
   customUserDataDir: './userDataDirStaging/',
@@ -27,7 +27,7 @@ export default {
     daysToArchive: 45,
   },
   log: {
-    level: 'silly', // Before open a issue, change level to silly and retry a action
+    level: 'error', // Before open a issue, change level to silly and retry a action
     logger: ['console', 'file'],
   },
   createOptions: {
