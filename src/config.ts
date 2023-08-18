@@ -1,7 +1,7 @@
 export default {
-  secretKey: 'vWpw3vn1xAQjS18GhGmRd2mwsKnq3R65',
+  secretKey: 'vWpw3vn1xAQjS18GhGmRd2mwsKnq3R66',
   host: 'http://localhost',
-  port: '21465',
+  port: '21466',
   deviceName: 'WhatsApp API',
   poweredBy: 'MeaVita Ventures',
   startAllSession: false,
@@ -12,7 +12,6 @@ export default {
     url: null,
     autoDownload: true,
     uploadS3: false,
-    awsBucketName: null,
     readMessage: false,
     allUnreadOnStart: false,
     listenAcks: false,
@@ -22,6 +21,7 @@ export default {
     onPollResponse: false,
     onRevokedMessage: false,
     onLabelUpdated: false,
+    onSelfMessage: false,
   },
   chatwoot: {
     sendQrCode: true,
@@ -79,5 +79,11 @@ export default {
     redisPassword: '',
     redisDb: 0,
     redisPrefix: 'docker',
+  },
+  aws_s3: {
+    region: 'sa-east-1',
+    access_key_id: null,
+    secret_key: null,
+    defaultBucketName: null,
   },
 };
