@@ -1,7 +1,7 @@
 export default {
-  secretKey: 'vWpw3vn1xAQjS18GhGmRd2mwsKnq3R66',
+  secretKey: 'vWpw3vn1xAQjS18GhGmRd2mwsKnq3R65',
   host: 'http://localhost',
-  port: '21466',
+  port: '21465',
   deviceName: 'WhatsApp API',
   poweredBy: 'MeaVita Ventures',
   startAllSession: false,
