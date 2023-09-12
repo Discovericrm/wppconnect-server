@@ -1,5 +1,5 @@
 export default {
-  secretKey: 'vWpw3vn1xAQjS18GhGmRd2mwsKnq3R66',
+  secretKey: 'TOKEN',
   host: 'http://localhost',
   port: '21466',
   deviceName: 'WhatsApp API',
